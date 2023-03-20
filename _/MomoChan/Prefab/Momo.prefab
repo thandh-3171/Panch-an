@@ -859,6 +859,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1891256554685849372}
+  - component: {fileID: 1157102194039962046}
   m_Layer: 0
   m_Name: Momo
   m_TagString: Untagged
@@ -883,6 +884,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1157102194039962046
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257849533138568614}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 1c13de3bfd9a848468b2e9e9247651fc, type: 3}
+  m_Controller: {fileID: 9100000, guid: 220c7b5aa811dfa4eb133a8b9342ddcd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: "\nBinding warning: Some generic clip(s) animate transforms that
+    are already bound by a Humanoid avatar. These transforms can only be changed
+    by Humanoid clips.\n\tTransform 'Armature'\n\tTransform 'Neck'\n\tTransform 'Hand.L'\n\tTransform
+    'IndexFinger1_L'\n\tTransform 'IndexFinger2_R'\n\tTransform 'LowerArm.R'\n\tTransform
+    'RingFinger3_L'\n\tTransform 'MiddleFinger3_R'\n\tTransform 'MiddleFinger3_L'\n\tTransform
+    'ThumbFinger1_L'\n\tand more ...\n\tFrom animation clip 'Idle'\n\tFrom animation
+    clip 'Die'\n\tFrom animation clip 'Move'"
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1273701937175497893
 GameObject:
   m_ObjectHideFlags: 0
