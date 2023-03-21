@@ -780,8 +780,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2163424609175239534}
   - component: {fileID: 2914175253476928359}
-  - component: {fileID: 8806418848714942002}
-  - component: {fileID: 9053171725944704784}
   m_Layer: 0
   m_Name: Pan
   m_TagString: Untagged
@@ -827,55 +825,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!111 &8806418848714942002
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1535120082324824532}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations:
-  - {fileID: 7400000, guid: c66120faf4a39dd4b9207aebb677b256, type: 2}
-  - {fileID: 7400000, guid: 99613ba94cd80524c88a3fbb2a5e6be7, type: 2}
-  - {fileID: 7400000, guid: c0a46de3515a9f74b95e539b8fffe8c5, type: 2}
-  - {fileID: 7400000, guid: 5d7b6bc9c02181c479f55ddbe33d8d69, type: 2}
-  - {fileID: 7400000, guid: 70057f30aed41c146bbafdd12bb157b1, type: 2}
-  - {fileID: 7400000, guid: b6c4628284e03754bb5a88ecd42fdf42, type: 2}
-  - {fileID: 7400000, guid: d31036d5b0ce982489b7c9f46c7a8385, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
---- !u!114 &9053171725944704784
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1535120082324824532}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f96f4d1c57748944891c173384e3f464, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  anims:
-  - play: 0
-    clip: {fileID: 7400000, guid: 99613ba94cd80524c88a3fbb2a5e6be7, type: 2}
-  - play: 0
-    clip: {fileID: 7400000, guid: c0a46de3515a9f74b95e539b8fffe8c5, type: 2}
-  - play: 0
-    clip: {fileID: 7400000, guid: 70057f30aed41c146bbafdd12bb157b1, type: 2}
-  - play: 0
-    clip: {fileID: 7400000, guid: c66120faf4a39dd4b9207aebb677b256, type: 2}
-  - play: 0
-    clip: {fileID: 7400000, guid: 5d7b6bc9c02181c479f55ddbe33d8d69, type: 2}
-  - play: 0
-    clip: {fileID: 7400000, guid: b6c4628284e03754bb5a88ecd42fdf42, type: 2}
-  - play: 0
-    clip: {fileID: 7400000, guid: d31036d5b0ce982489b7c9f46c7a8385, type: 2}
 --- !u!1 &1554878497661724887
 GameObject:
   m_ObjectHideFlags: 0

@@ -894,7 +894,7 @@ Animator:
   m_GameObject: {fileID: 1257849533138568614}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 1c13de3bfd9a848468b2e9e9247651fc, type: 3}
-  m_Controller: {fileID: 9100000, guid: 220c7b5aa811dfa4eb133a8b9342ddcd, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1f2d8bb66813e1a49971799f38915e98, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -905,8 +905,9 @@ Animator:
     by Humanoid clips.\n\tTransform 'Armature'\n\tTransform 'Neck'\n\tTransform 'Hand.L'\n\tTransform
     'IndexFinger1_L'\n\tTransform 'IndexFinger2_R'\n\tTransform 'LowerArm.R'\n\tTransform
     'RingFinger3_L'\n\tTransform 'MiddleFinger3_R'\n\tTransform 'MiddleFinger3_L'\n\tTransform
-    'ThumbFinger1_L'\n\tand more ...\n\tFrom animation clip 'Idle'\n\tFrom animation
-    clip 'Die'\n\tFrom animation clip 'Move'"
+    'ThumbFinger1_L'\n\tand more ...\n\tFrom animation clip 'Die'\n\tFrom animation
+    clip 'Idle'\n\tFrom animation clip 'Move'\n\tFrom animation clip 'Move'\n\tFrom
+    animation clip 'Move'\n\tFrom animation clip 'Move'\n\tFrom animation clip 'Move'"
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
