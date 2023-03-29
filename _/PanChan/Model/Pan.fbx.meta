@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4df4eac978ac87b48a158d7cb0ba7957
+guid: c214d867b85ca8a468d6782780fa9bbd
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -8,17 +8,22 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Kronii base
-    second: {fileID: 2100000, guid: 863b275d411946b44a3dd1e738822c71, type: 2}
+    second: {fileID: 2100000, guid: 6a2a7ca70fc0002499b862c67c288f87, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Kronii base.OUTX
-    second: {fileID: 2100000, guid: 40ae744c92bb17149b51ee773b75a793, type: 2}
+    second: {fileID: 2100000, guid: e3e3d663792f60b4b94ab1fec39e7c19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kronii cat
+    second: {fileID: 2100000, guid: 7a0d4d83b8d80164194b7a32755f4ef5, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Kronii hair
-    second: {fileID: 2100000, guid: d5097fe471f0feb4899c006ff55295b9, type: 2}
+    second: {fileID: 2100000, guid: 1e9733a723d79504d897f05da954192e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -105,7 +110,7 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
     human:
-    - boneName: Hips
+    - boneName: Armature
       humanName: Hips
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -514,23 +519,18 @@ ModelImporter:
         length: 0
         modified: 0
     skeleton:
-    - name: Mitsumi(Clone)
+    - name: Pan(Clone)
       parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Kronii
-      parentName: Mitsumi(Clone)
+      parentName: Pan(Clone)
       position: {x: 0.000000014901161, y: -0.00000011920929, z: 0}
       rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
       scale: {x: 65.29661, y: 57.910053, z: 72.311615}
-    - name: Cloak
-      parentName: Mitsumi(Clone)
-      position: {x: -0.39828086, y: 1.4618429, z: -0.4666645}
-      rotation: {x: 0.10187062, y: -1.2175465e-16, z: 1.2175465e-16, w: 0.99479765}
-      scale: {x: 26.022625, y: 26.022627, z: 26.022627}
     - name: Armature
-      parentName: Mitsumi(Clone)
+      parentName: Pan(Clone)
       position: {x: -0, y: 0.80906326, z: 0}
       rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
       scale: {x: 28.180813, y: 28.180813, z: 28.180813}
@@ -644,66 +644,6 @@ ModelImporter:
       position: {x: -0, y: 0.0021267391, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: BackHair1.1.R
-      parentName: Head
-      position: {x: 0.01760036, y: 0.0176234, z: -0.011487235}
-      rotation: {x: 0.8105745, y: 0.09545269, z: 0.5723434, w: -0.0792514}
-      scale: {x: 0.99999684, y: 0.9999998, z: 0.99999994}
-    - name: BackHair1.2.R
-      parentName: BackHair1.1.R
-      position: {x: -0, y: 0.00970383, z: 0.0000000017881393}
-      rotation: {x: -0.014475133, y: 0.00000007472355, z: 0.09506855, w: 0.9953655}
-      scale: {x: 1, y: 1, z: 1}
-    - name: BackHair1.2.R_end
-      parentName: BackHair1.2.R
-      position: {x: -0, y: 0.007447224, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: BackHair2.1.R
-      parentName: Head
-      position: {x: 0.018591788, y: -0.0013402726, z: -0.011083011}
-      rotation: {x: 0.81013757, y: 0.05017944, z: 0.58149624, w: -0.05496554}
-      scale: {x: 1.0000113, y: 1.0000001, z: 1.0000005}
-    - name: BackHair2.2.R
-      parentName: BackHair2.1.R
-      position: {x: -0.0000000021606683, y: 0.0050307056, z: -0.000000004172325}
-      rotation: {x: -0.112182595, y: -0.005501996, z: -0.06357891, w: 0.9916363}
-      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
-    - name: BackHair2.2.R_end
-      parentName: BackHair2.2.R
-      position: {x: -0, y: 0.004719814, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: BackHair1.1.2.R
-      parentName: Head
-      position: {x: 0.010054847, y: 0.015597205, z: -0.022304911}
-      rotation: {x: 0.816908, y: -0.007060365, z: 0.567889, w: -0.10056647}
-      scale: {x: 1.0000008, y: 1, z: 1.0000025}
-    - name: BackHair1.2.2.R
-      parentName: BackHair1.1.2.R
-      position: {x: 0.000000002980232, y: 0.0075320196, z: -0.0000000011920929}
-      rotation: {x: 0.0035791579, y: -0.004969412, z: -0.018581761, w: 0.9998086}
-      scale: {x: 1, y: 0.99999994, z: 1}
-    - name: BackHair1.2.2.R_end
-      parentName: BackHair1.2.2.R
-      position: {x: -0, y: 0.0073544914, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: BackHair2.1.2.R
-      parentName: Head
-      position: {x: 0.009558653, y: -0.00069152383, z: -0.023733106}
-      rotation: {x: 0.8142362, y: 0.026596516, z: 0.57926774, w: -0.027585918}
-      scale: {x: 1.0000396, y: 1.0000001, z: 1.0000014}
-    - name: BackHair2.2.2.R
-      parentName: BackHair2.1.2.R
-      position: {x: -5.2154064e-10, y: 0.0050908527, z: 4.4703483e-10}
-      rotation: {x: 0.015098779, y: -0.009913205, z: 0.054751083, w: 0.9983367}
-      scale: {x: 1, y: 0.9999999, z: 0.99999994}
-    - name: BackHair2.2.2.R_end
-      parentName: BackHair2.2.2.R
-      position: {x: -0, y: 0.004773422, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
     - name: Clock
       parentName: Head
       position: {x: -0.000000002800447, y: 0.027851166, z: -0.011745926}
@@ -764,64 +704,54 @@ ModelImporter:
       position: {x: -0, y: 0.0021267391, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: BackHair1.1.L
+    - name: Ear.L
       parentName: Head
-      position: {x: -0.017600365, y: 0.0176234, z: -0.011487226}
-      rotation: {x: 0.8105745, y: -0.0954527, z: -0.57234347, w: -0.07925146}
-      scale: {x: 0.99999684, y: 0.99999976, z: 0.9999999}
-    - name: BackHair1.2.L
-      parentName: BackHair1.1.L
-      position: {x: -0, y: 0.009703827, z: 0.000000002682209}
-      rotation: {x: -0.014475161, y: -0.00000005376543, z: -0.09506851, w: 0.9953655}
+      position: {x: -0.01568995, y: 0.029258003, z: -0.00017567152}
+      rotation: {x: -0.12314427, y: 0.0046668984, z: 0.23790658, w: 0.96343875}
       scale: {x: 1, y: 0.9999999, z: 0.99999994}
-    - name: BackHair1.2.L_end
-      parentName: BackHair1.2.L
-      position: {x: -0, y: 0.007447224, z: 0}
+    - name: Ear.L.001
+      parentName: Ear.L
+      position: {x: 0.0000000014202669, y: 0.0032309105, z: 0.0000000012665987}
+      rotation: {x: 0.062308155, y: 0.013776673, z: -0.035589494, w: 0.9973271}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Ear.L.002
+      parentName: Ear.L.001
+      position: {x: 0.0000000022817404, y: 0.003745025, z: 1.4901161e-10}
+      rotation: {x: 0.09140182, y: 0.000022201786, z: -0.016724922, w: 0.99567366}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: Ear.L.003
+      parentName: Ear.L.002
+      position: {x: 0.0000000030826777, y: 0.0047959723, z: -3.72529e-10}
+      rotation: {x: 0.032789547, y: -0.00017068163, z: -0.04441339, w: 0.998475}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Ear.L.003_end
+      parentName: Ear.L.003
+      position: {x: -0, y: 0.0061886087, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: BackHair2.1.L
+    - name: Ear.R
       parentName: Head
-      position: {x: -0.018591793, y: -0.0013402726, z: -0.011083002}
-      rotation: {x: 0.8101375, y: -0.05017939, z: -0.5814964, w: -0.0549655}
-      scale: {x: 1.0000113, y: 1.0000001, z: 1.0000006}
-    - name: BackHair2.2.L
-      parentName: BackHair2.1.L
-      position: {x: 3.72529e-10, y: 0.005030709, z: -0.000000002682209}
-      rotation: {x: -0.112182595, y: 0.0055020107, z: 0.06357895, w: 0.9916363}
+      position: {x: 0.01568995, y: 0.029258003, z: -0.000175679}
+      rotation: {x: -0.12314431, y: -0.0046666763, z: -0.2379066, w: 0.96343875}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Ear.R.001
+      parentName: Ear.R
+      position: {x: -2.4214386e-10, y: 0.0032309075, z: -0.0000000011920929}
+      rotation: {x: 0.062308155, y: -0.013776674, z: 0.03558955, w: 0.9973271}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: Ear.R.002
+      parentName: Ear.R.001
+      position: {x: -0.0000000010710209, y: 0.0037450257, z: -7.0780515e-10}
+      rotation: {x: 0.09140184, y: -0.000022210943, z: 0.016724903, w: 0.99567366}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Ear.R.003
+      parentName: Ear.R.002
+      position: {x: -0.000000001899898, y: 0.004795974, z: -2.9802322e-10}
+      rotation: {x: 0.032789562, y: 0.00017068647, z: 0.044413384, w: 0.998475}
       scale: {x: 1, y: 1, z: 1}
-    - name: BackHair2.2.L_end
-      parentName: BackHair2.2.L
-      position: {x: -0, y: 0.004719814, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: BackHair1.1.2.L
-      parentName: Head
-      position: {x: -0.010054857, y: 0.015597205, z: -0.022304906}
-      rotation: {x: 0.8169074, y: 0.0070603206, z: -0.5678898, w: -0.10056638}
-      scale: {x: 1.0000017, y: 1.0000001, z: 1.0000048}
-    - name: BackHair1.2.2.L
-      parentName: BackHair1.1.2.L
-      position: {x: 0.000000001490116, y: 0.0075320117, z: -0.0000000017881393}
-      rotation: {x: 0.0035791013, y: 0.004969443, z: 0.01858171, w: 0.9998086}
-      scale: {x: 1, y: 0.9999998, z: 0.9999999}
-    - name: BackHair1.2.2.L_end
-      parentName: BackHair1.2.2.L
-      position: {x: -0, y: 0.0073544914, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 1, z: 1}
-    - name: BackHair2.1.2.L
-      parentName: Head
-      position: {x: -0.009558664, y: -0.00069152383, z: -0.0237331}
-      rotation: {x: 0.81423545, y: -0.026596809, z: -0.57926875, w: -0.027585976}
-      scale: {x: 1.0000509, y: 1.0000001, z: 1.0000019}
-    - name: BackHair2.2.2.L
-      parentName: BackHair2.1.2.L
-      position: {x: -0.0000000013038516, y: 0.0050908523, z: -2.9802322e-10}
-      rotation: {x: 0.015098427, y: 0.009913196, z: -0.05475049, w: 0.99833673}
-      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999999}
-    - name: BackHair2.2.2.L_end
-      parentName: BackHair2.2.2.L
-      position: {x: -0, y: 0.004773422, z: 0}
+    - name: Ear.R.003_end
+      parentName: Ear.R.003
+      position: {x: -0, y: 0.0061886087, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Shoulder.L
@@ -846,22 +776,22 @@ ModelImporter:
       scale: {x: 0.99999994, y: 1, z: 1}
     - name: ThumbFinger1_L
       parentName: Hand.L
-      position: {x: -0.0007641169, y: 0.0031150107, z: 0.0027925058}
-      rotation: {x: 0.44135126, y: -0.050166998, z: 0.048957214, w: 0.89459234}
+      position: {x: -0.00072909595, y: 0.0039382987, z: 0.002224207}
+      rotation: {x: 0.44135243, y: -0.05016748, z: 0.04895849, w: 0.8945917}
       scale: {x: 1, y: 1, z: 1}
     - name: ThumbFinger2_L
       parentName: ThumbFinger1_L
-      position: {x: -0.0000000025331974, y: 0.0014001235, z: 0.0000000013783574}
-      rotation: {x: -0.03878304, y: 0.010034612, z: 0.011158719, w: 0.99913496}
-      scale: {x: 1, y: 1, z: 1}
+      position: {x: -3.72529e-10, y: 0.0014001267, z: -4.4703483e-10}
+      rotation: {x: -0.038783453, y: 0.010034461, z: 0.011158264, w: 0.9991349}
+      scale: {x: 1, y: 1, z: 1.0000001}
     - name: ThumbFinger3_L
       parentName: ThumbFinger2_L
-      position: {x: 9.685754e-10, y: 0.0015256556, z: -0.0000000012293457}
-      rotation: {x: -0.031023875, y: 0.011530997, z: 0.023296118, w: 0.9991806}
-      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+      position: {x: 0.0000000015646219, y: 0.0015256554, z: -0.0000000018626451}
+      rotation: {x: -0.03102477, y: 0.011530993, z: 0.02329564, w: 0.99918056}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
     - name: ThumbFinger3_L_end
       parentName: ThumbFinger3_L
-      position: {x: -0, y: 0.0012350834, z: 0}
+      position: {x: -0, y: 0.0012350836, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: IndexFinger1_L
@@ -966,22 +896,22 @@ ModelImporter:
       scale: {x: 0.99999994, y: 1, z: 1}
     - name: ThumbFinger1_R
       parentName: Hand.R
-      position: {x: 0.0007641169, y: 0.0031150107, z: 0.0027925058}
-      rotation: {x: 0.4413523, y: 0.050167833, z: -0.048959166, w: 0.8945917}
+      position: {x: 0.00072909595, y: 0.0039382987, z: 0.002224207}
+      rotation: {x: 0.4413523, y: 0.05016753, z: -0.048958242, w: 0.89459175}
       scale: {x: 1, y: 1, z: 1}
     - name: ThumbFinger2_R
       parentName: ThumbFinger1_R
-      position: {x: 0.0000000025331974, y: 0.0014001235, z: 0.0000000013783574}
-      rotation: {x: -0.03877774, y: -0.010034516, z: -0.011156719, w: 0.99913526}
-      scale: {x: 1, y: 1, z: 1}
+      position: {x: 3.72529e-10, y: 0.0014001267, z: -4.4703483e-10}
+      rotation: {x: -0.038781635, y: -0.010034506, z: -0.011158316, w: 0.999135}
+      scale: {x: 1, y: 1, z: 1.0000001}
     - name: ThumbFinger3_R
       parentName: ThumbFinger2_R
-      position: {x: -9.685754e-10, y: 0.0015256556, z: -0.0000000012293457}
-      rotation: {x: -0.031023733, y: -0.011531148, z: -0.02329588, w: 0.9991806}
-      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+      position: {x: -0.0000000015646219, y: 0.0015256554, z: -0.0000000018626451}
+      rotation: {x: -0.031027745, y: -0.011530933, z: -0.02329957, w: 0.9991804}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
     - name: ThumbFinger3_R_end
       parentName: ThumbFinger3_R
-      position: {x: -0, y: 0.0012350834, z: 0}
+      position: {x: -0, y: 0.0012350836, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: IndexFinger1_R
@@ -1104,8 +1034,53 @@ ModelImporter:
       position: {x: -0, y: 0.0071882, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
+    - name: Tail
+      parentName: Armature
+      position: {x: -2.2801073e-19, y: 0.007827381, z: 0.0046040365}
+      rotation: {x: -0.0721795, y: -0.000000118898356, z: 0.0000000086044665, w: 0.9973917}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Tail.001
+      parentName: Tail
+      position: {x: 3.5299125e-17, y: 0.0022207194, z: 1.4901161e-10}
+      rotation: {x: 0.21924183, y: 1.7604641e-14, z: -0.000000052271325, w: 0.9756706}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Tail.002
+      parentName: Tail.001
+      position: {x: -2.2801068e-19, y: 0.0027575626, z: 0}
+      rotation: {x: 0.33007517, y: -1.46659e-14, z: -0.000000078696054, w: 0.94395465}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Tail.003
+      parentName: Tail.002
+      position: {x: 2.3896396e-16, y: 0.0031683599, z: 0}
+      rotation: {x: 0.0052835783, y: 7.105769e-15, z: -0.0000000012597157, w: 0.99998605}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Tail.004
+      parentName: Tail.003
+      position: {x: -1.6415471e-16, y: 0.003371449, z: 5.9604643e-10}
+      rotation: {x: -0.021666981, y: -7.182904e-18, z: 0.0000000051658153, w: 0.9997653}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: Tail.005
+      parentName: Tail.004
+      position: {x: 1.09468116e-16, y: 0.003976029, z: 5.9604643e-10}
+      rotation: {x: -0.2689129, y: -1.0681842e-14, z: 0.00000006411384, w: 0.9631645}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Tail.006
+      parentName: Tail.005
+      position: {x: -3.1685753e-16, y: 0.0030268508, z: -5.9604643e-10}
+      rotation: {x: -0.2438788, y: 3.8069594e-14, z: 0.00000005814523, w: 0.9698057}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Tail.007
+      parentName: Tail.006
+      position: {x: -2.1027611e-16, y: 0.0023987584, z: -4.4703483e-10}
+      rotation: {x: -0.25588328, y: -5.2371742e-15, z: 0.00000006100733, w: 0.9667077}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Tail.007_end
+      parentName: Tail.007
+      position: {x: -0, y: 0.0025923396, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
     - name: Clock
-      parentName: Mitsumi(Clone)
+      parentName: Pan(Clone)
       position: {x: -0, y: -0.00000017881393, z: 0}
       rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
       scale: {x: 100, y: 100, z: 100}

@@ -214,9 +214,9 @@ SkinnedMeshRenderer:
   - {fileID: 2100000, guid: 98fa22209713413449becb74a2ea38a2, type: 2}
   - {fileID: 2100000, guid: 01ec51a97e60ba84ab38ec0ef34db723, type: 2}
   - {fileID: 2100000, guid: 32e01e15a1a9b7c428d1450e317eca66, type: 2}
-  - {fileID: 2100000, guid: e953723a90de20c4d8fe6ddfade43e01, type: 2}
+  - {fileID: 2100000, guid: 65f08ca7885a4ed41a3b981b9ccd2c13, type: 2}
   - {fileID: 2100000, guid: 6e1ab6ecbea165845b8c9448be866f93, type: 2}
-  - {fileID: 2100000, guid: 56a88b22b4c5cf24bb8905e2f9a50fca, type: 2}
+  - {fileID: 2100000, guid: ce6b5dd8302840e49b68603972c1b0b3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -876,7 +876,7 @@ Transform:
   m_GameObject: {fileID: 1257849533138568614}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_LocalScale: {x: 0.55, y: 0.55, z: 0.55}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7390339377266036610}
@@ -894,20 +894,13 @@ Animator:
   m_GameObject: {fileID: 1257849533138568614}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 1c13de3bfd9a848468b2e9e9247651fc, type: 3}
-  m_Controller: {fileID: 9100000, guid: 1f2d8bb66813e1a49971799f38915e98, type: 2}
-  m_CullingMode: 0
+  m_Controller: {fileID: 9100000, guid: 7c4c407fb08e38a4bb501d445b3f34d6, type: 2}
+  m_CullingMode: 1
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
-  m_WarningMessage: "\nBinding warning: Some generic clip(s) animate transforms that
-    are already bound by a Humanoid avatar. These transforms can only be changed
-    by Humanoid clips.\n\tTransform 'Armature'\n\tTransform 'Neck'\n\tTransform 'Hand.L'\n\tTransform
-    'IndexFinger1_L'\n\tTransform 'IndexFinger2_R'\n\tTransform 'LowerArm.R'\n\tTransform
-    'RingFinger3_L'\n\tTransform 'MiddleFinger3_R'\n\tTransform 'MiddleFinger3_L'\n\tTransform
-    'ThumbFinger1_L'\n\tand more ...\n\tFrom animation clip 'Die'\n\tFrom animation
-    clip 'Idle'\n\tFrom animation clip 'Move'\n\tFrom animation clip 'Move'\n\tFrom
-    animation clip 'Move'\n\tFrom animation clip 'Move'\n\tFrom animation clip 'Move'"
+  m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
